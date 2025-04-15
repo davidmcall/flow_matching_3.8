@@ -26,7 +26,7 @@ AUTHOR = ",".join(
         "Yaron Lipman",
     ]
 )
-REQUIRES_PYTHON = ">=3.9.0"
+REQUIRES_PYTHON = ">=3.8.0"
 
 for line in open("flow_matching/__init__.py"):
     line = line.strip()
